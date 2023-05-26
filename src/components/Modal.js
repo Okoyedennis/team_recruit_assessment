@@ -145,7 +145,7 @@ const Modal = () => {
                   </div>
                 </div>
 
-                <div className="mt-[5rem] bg-darkGray rounded-md p-[2rem] relative z-[20]">
+                <div className="mt-[5rem] bg-darkGray rounded-md p-[2rem] pb-[1rem] relative z-[20]">
                   <div className="rounded-md h-[20rem] mt-[-9rem] shadow-custom1 z-[30] p-4 backdrops">
                     <div className="flex flex-col justify-between h-full">
                       <div className="flex items-center justify-between text-4xl">
