@@ -18,7 +18,7 @@ const Modal = () => {
     <>
       {showModal ? (
         <div className="flex items-center justify-center h-full transition-opacity duration-200 ease-in">
-          <div className="bg-white w-[95%] md:w-[80%] h-[90vh] md:h-[80vh] lg:w-[70%] rounded-md shadow-custom1 p-[1rem] md:p-[2rem]">
+          <div className="bg-white w-[95%] md:w-[80%] h-fit lg:w-[70%] rounded-md shadow-custom1 p-[1rem] md:p-[2rem]">
             <div
               className="flex justify-end cursor-pointer text-lg"
               onClick={showModalHandler}
